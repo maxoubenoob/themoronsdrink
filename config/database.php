@@ -44,7 +44,7 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'http://maximebrunet.alwaysdata.net'),
+            'host' => env('DB_HOST', 'mysql-maximebrunet.alwaysdata.net'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'maximebrunet_themoronsdrink'),
             'username' => env('DB_USERNAME', '184220'),
