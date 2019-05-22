@@ -1,8 +1,9 @@
-# themoronsdrink
-Website for the 3WA
+# The Morons Drink
+## Website for the 3WA
 
 The game is simple, you click on play and a question is display<br/>
 After few seconds the answer is display<br/>
+I used AJAX for this game
 <br/>
 <h3>HTML</h3>
 Folder ressources/views/templates -> main.blade.php<br/>
