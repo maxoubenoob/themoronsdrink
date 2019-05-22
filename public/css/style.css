@@ -1,0 +1,134 @@
+/* ##################################### */
+/* #########    FONT FAMILY    ######### */
+/* ##################################### */
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('font/Montserrat/Montserrat-Regular.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('font/Rubik/Rubik-Regular.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ##################################### */
+/* #######     GENERAL STYLE    ######## */
+/* ##################################### */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Rubik, Arial, Helvetica, sans-serif;
+  background-color : #272822;
+}
+
+/* The div for the title of the site */
+.title {
+  height: 50vh;
+}
+
+/* The title of the site */
+h1 {
+  font-size: 20px;
+  color: white;
+  font-family: Montserrat, Arial, Helvetica, sans-serif; 
+  z-index: 2;
+}
+
+/* Rules of the game */
+.rules{
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* The div for the button */
+.container-buttons {
+  height: 50vh;
+  font-size: 20px;
+}
+
+/* The css of the button */
+button {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%;
+}
+
+/* When we click on the button */
+button:focus {
+  outline: none;
+}
+
+
+ /* ##################################### */
+/* ##########   RESPONSIVE  ############ */
+/* ##################################### */
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ 
+  /* The title of the site */
+  h1 {
+    font-size: 40px;
+  }
+
+  .rules{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  /* The div for the button */
+  .container-buttons {
+    font-size: 25px;
+  }
+
+
+  /* The css of the button */
+  button {
+    width: 120px;
+    height: 120px;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1600px and up) */
+@media only screen and (min-width: 1600px) {
+
+  /* The title of the site */
+  h1 {
+    font-size: 100px;
+  }
+
+  .rules{
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  /* The div for the button */
+  .container-buttons {
+    font-size: 30px;
+  }
+
+
+  /* The css of the button */
+  button {
+    width: 150px;
+    height: 150px;
+  }
+
+}
