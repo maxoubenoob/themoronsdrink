@@ -13,7 +13,7 @@ Folder public/css -> style.css<br/>
 <br/>
 <h3>PHP & SQL</h3><br/>
 Folder app/Http/Controllers -> MainController.php<br/>
+<em>SQL BASE IN THE MAIN FOLDER</em>
 <br/>
 <h3>JS</h3><br/>
 Folder public/js -> play.js<br/>
-<em>SQL BASE IN THE MAIN FOLDER</em>
